@@ -7,7 +7,7 @@ log_file = "output.log"
 port = 8080
 reserved_subdomain = "" #Need to add
 url_path = "/logs"
-num_lines = 100  # number of lines to retrieve
+num_lines = 50  # number of lines to retrieve
 
 # --- HTTP Handler ---
 class TailHandler(BaseHTTPRequestHandler):
